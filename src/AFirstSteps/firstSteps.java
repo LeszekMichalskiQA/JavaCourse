@@ -1,6 +1,8 @@
 package AFirstSteps;
 
 
+import utils.Generator;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +11,7 @@ public class firstSteps {
 
 
     public static void main(String[] args) {
-        List<Integer> scores = Arrays.asList(1001, 1000, 999, 501, 500, 499, 101, 100, 99, 0, -1, -100);
+        List<Integer> scores = Generator.getRandomIntList(-100, 1000, 5, 20);
         String playerName = "Jim";
         displayHighScorePosition(playerName, scores, calculateHighScorePosition(scores));
     }

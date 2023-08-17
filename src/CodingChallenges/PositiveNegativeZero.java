@@ -1,13 +1,14 @@
 package CodingChallenges;
 
-import java.util.Arrays;
+import utils.Generator;
+
 import java.util.List;
 
-public class Challenges {
+public class PositiveNegativeZero {
     public static void main(String[] args) {
 
-        List<Integer> integerNumbers = Arrays.asList(2, 4, 6, 8, 10, 22, -10, -100, 0);
-        List<Double> doubleNumbers = Arrays.asList(2.5, 4.5, 9.9, 10.24, 2134.222);
+        List<Integer> integerNumbers = Generator.getRandomIntList(-100, 100, 7, 35);
+        List<Double> doubleNumbers = Generator.getRandomDoubleList(-100, 100, 30, 100);
 
         checkNumber(integerNumbers);
         checkNumber(doubleNumbers);
