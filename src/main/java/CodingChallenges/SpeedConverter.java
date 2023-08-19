@@ -1,6 +1,7 @@
 package CodingChallenges;
 
 import utils.Generator;
+import utils.LoggerUtil;
 
 public class SpeedConverter {
     public static void main(String[] args) {

@@ -8,8 +8,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class firstSteps {
-
-
     public static void main(String[] args) {
         List<Integer> scores = Generator.getRandomIntList(-100, 1000, 5, 20);
         String playerName = "Jim";

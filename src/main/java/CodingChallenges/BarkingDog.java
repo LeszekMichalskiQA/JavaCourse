@@ -2,7 +2,7 @@ package CodingChallenges;
 
 import utils.Generator;
 
-public class brakingDog {
+public class BarkingDog {
     public static void main(String[] args) {
         boolean barking = false;
         shouldWakeUp(barking, Generator.getRandomInt(0, 0));
