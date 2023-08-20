@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import static utils.LoggerUtil.logInfo;
+
 public class Generator {
     private static final Random random = new Random();
 
@@ -12,7 +14,9 @@ public class Generator {
     }
 
     public static int getRandomInt(int min, int max) {
-        return getRandomInstance().nextInt((max - min) + 1) + min;
+        int generatedInt = getRandomInstance().nextInt((max - min) + 1) + min;
+        logInfo(String.format("Your int number is - %d", generatedInt));
+        return  generatedInt;
     }
 
     public static List<Integer> getRandomIntList(int min, int max, int minAmountOfNumbers, int maxAmountOfNumbers) {
@@ -21,7 +25,8 @@ public class Generator {
         for (int i = 0; i < count; i++) {
             numbers.add(getRandomInt(min, max));
         }
-        System.out.println(numbers.size() + " - Integer numbers were generated");
+        logInfo(numbers.size() + " - Integer numbers were generated");
+        logInfo(String.format("Numbers are %s", numbers));
         return numbers;
     }
 
@@ -35,7 +40,7 @@ public class Generator {
         for (int i = 0; i < count; i++) {
             numbers.add(getRandomDouble(min, max));
         }
-        System.out.println(numbers.size() + " - Double numbers were generated");
+        logInfo(numbers.size() + " - Double numbers were generated");
         return numbers;
     }
     private static Integer generateCount(int minAmountOfNumbers, int maxAmountOfNumbers){

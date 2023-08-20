@@ -1,10 +1,9 @@
-package AFirstSteps;
+package CourseMaterial;
 
 
 import utils.Generator;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class firstSteps {
