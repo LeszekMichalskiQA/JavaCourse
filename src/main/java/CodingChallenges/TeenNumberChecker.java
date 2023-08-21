@@ -26,7 +26,7 @@ public class TeenNumberChecker {
         return finalNumbers;
     }
 
-    public static boolean isTeen(int number) {
+    private static boolean isTeen(int number) {
         return (number >= 13 && number <= 19);
     }
 

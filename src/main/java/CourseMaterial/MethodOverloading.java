@@ -7,19 +7,20 @@ import static utils.LoggerUtil.logInfo;
 public class MethodOverloading {
     public static void main(String[] args) {
         int inches = Generator.getRandomInt(1, 60);
-        int heightInFeet = 6;
-        int remainingHeightInInches = 12;
-        logInfo(String.format(inches + " inches equals " + convertToCentimeters(inches) + " cm"));
-//        convertToCentimeters();
+        int heightInFeet = Generator.getRandomInt(1, 10);
+        int remainingHeightInInches = Generator.getRandomInt(1, 12);
+        logInfo(String.format("%s inches equals %s cm", inches, convertToCentimeters(inches)));
+        logInfo(String.format("%s feet and %s inches equals to %s cm",
+                heightInFeet, remainingHeightInInches, convertToCentimeters(heightInFeet, remainingHeightInInches)));
     }
 
-    public static double convertToCentimeters(int a){
-        double convertedValue = a * 2.54;
-        logInfo(String.valueOf(convertedValue));
-        return convertedValue;
+    public static double convertToCentimeters(int inches){
+        return  inches * 2.54;
     }
-    public static int convertToCentimeters(int a, int b){
+    public static double convertToCentimeters(int feet, int inches){
+        int feetToInches = feet * 12;
+        int totalInches = feetToInches + inches;
+        return convertToCentimeters(totalInches);
+    }
 
-        return a;
-    }
 }
