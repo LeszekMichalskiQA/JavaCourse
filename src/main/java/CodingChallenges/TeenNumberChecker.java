@@ -20,7 +20,7 @@ public class TeenNumberChecker {
                 finalNumbers.add(number);
             }
         }
-        if (finalNumbers.size() == 0) {
+        if (finalNumbers.isEmpty()) {
             logInfo("Final numbers list is empty");
         }
         return finalNumbers;

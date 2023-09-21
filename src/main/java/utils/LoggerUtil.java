@@ -12,21 +12,22 @@ public class LoggerUtil {
     }
 
     public static void logInfo(String message) {
-        logger.info(message);
-
+        logger.info(String.format(message));
     }
 
     public static void logInfo(boolean value) {
         logger.info(value);
     }
-    public static void logInfo(String message, List<Integer> values){
+
+    public static void logInfo(String message, List<Integer> values) {
         logger.info(message, values);
     }
-    public static void logInfo(String message, int value){
-        logger.info(message, value);
+
+    public static void logInfo(String message, int value) {
+        logger.info(String.format(message, value));
     }
 
-    public static void logError(String message) {
-        logger.error(message);
+    public static void logError(String message, int value) {
+        logger.error(String.format(message, value));
     }
 }
