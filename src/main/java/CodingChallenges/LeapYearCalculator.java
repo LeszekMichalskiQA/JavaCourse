@@ -10,11 +10,20 @@ public class LeapYearCalculator {
 
     public static boolean isLeapYear(int year) {
         System.out.println(year);
-        if (year >= 1 && year <= 9999) {
-            if (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0)) {
-                return true;
-            }
+        return year >= 1 && year <= 9999 && (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0));
+    }
+
+    public static int getDaysInMonth(int month, int year) {
+        if (year < 1 || year > 9999) {
+            return -1;
         }
-    return false;
+        int daysForMonths;
+        switch (month) {
+            case 11, 4, 6, 9 -> daysForMonths = 30;
+            case 2 -> daysForMonths = isLeapYear(year) ? 29 : 28;
+            default -> daysForMonths = 31;
+        }
+        return daysForMonths;
     }
 }
+

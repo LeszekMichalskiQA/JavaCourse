@@ -48,17 +48,12 @@ public class SwitchTests extends SwitchChallenges {
 
         List<Character> chars = Arrays.asList('a', 'b', 'c', 'd', 'e', 'f');
         for (char letter : chars) {
-           String expectedLetter = letterMap.get(letter);
-           if(expectedLetter == null){
-               expectedLetter = String.format("%s is NOT a valid letter", letter);
-           }
-           softAssert.assertEquals(natoWords(letter), expectedLetter, String.format("%s is NOT a valid letter", letter));
+            String expectedLetter = letterMap.get(letter);
+            if (expectedLetter == null) {
+                expectedLetter = String.format("%s is NOT a valid letter", letter);
+            }
+            softAssert.assertEquals(natoWords(letter), expectedLetter, String.format("%s is NOT a valid letter", letter));
         }
         softAssert.assertAll();
-    }
-    @Test
-    public static void getDaysInMonth(int month, int year){
-
-
     }
 }
