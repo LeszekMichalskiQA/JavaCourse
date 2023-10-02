@@ -13,12 +13,8 @@ p
 @.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml,d\5\d5a8c9da8b41ac9a0f14b1a5f70563892120f335
 d
 4.idea/libraries/Maven__com_beust_jcommander_1_72.xml,e\1\e131d5fb9f7bab4af039d7a1502ac3a805eaac89
-M
-src/main/java/utils/Data.java,a\a\aa0461f85ba8dcb98a0178b23bd523962ec75ceb
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-S
-#src/main/java/utils/LoggerUtil.java,1\a\1a4c1bd44dff94325f6eb8852c974901b35d0887
 d
 4src/main/java/CodingChallenges/SwitchChallenges.java,0\7\0710b52dd2a44690e485f5c27673739acddeb5c1
 b
@@ -27,8 +23,6 @@ c
 3src/main/java/CodingChallenges/EqualSumChecker.java,b\1\b17da6b5d2bc3ef3cba38cd4fe654e92b6e26402
 p
 @src/main/java/CodingChallenges/MinutesToYearsDaysCalculator.java,5\0\509e81de14b19186f537033217c6e715430f7365
-c
-3src/main/java/CourseMaterial/MethodOverloading.java,8\9\89bb93fcbbe82d2d148b0faae9270fa310bbc40d
 ^
 .src/main/java/CodingChallenges/BarkingDog.java,9\6\96ffa845d87960597b67b5e6d55f9f0879be1b69
 f
@@ -37,3 +31,5 @@ R
 "src/test/java/ChallengesTests.java,0\a\0a4e8d2ffffb6825c8ad217402b379489fa5f869
 e
 5src/main/java/CodingChallenges/TeenNumberChecker.java,6\4\6428b746b62b7fe20c8b58ba099d877cb75ca3c8
+N
+src/test/java/SwitchTests.java,d\9\d998466599474c65e7ad5e217ce7aff68a3c5433

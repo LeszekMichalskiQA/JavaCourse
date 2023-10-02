@@ -5,14 +5,10 @@ T
 $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
 L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
-M
-src/main/java/utils/Data.java,a\a\aa0461f85ba8dcb98a0178b23bd523962ec75ceb
 c
 3.idea/libraries/Maven__org_testng_testng_6_14_3.xml,e\2\e2c9b5911e56fb4d2a300117f694fc88c7aaf7e9
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-S
-#src/main/java/utils/LoggerUtil.java,1\a\1a4c1bd44dff94325f6eb8852c974901b35d0887
 e
 5src/main/java/CodingChallenges/TeenNumberChecker.java,6\4\6428b746b62b7fe20c8b58ba099d877cb75ca3c8
 d
@@ -27,8 +23,6 @@ b
 2src/main/java/CodingChallenges/AreaCalculator.java,4\3\437ec9d37a7692c7eec36c289b8c2d180b18e91e
 R
 "src/test/java/ChallengesTests.java,0\a\0a4e8d2ffffb6825c8ad217402b379489fa5f869
-c
-3src/main/java/CourseMaterial/MethodOverloading.java,8\9\89bb93fcbbe82d2d148b0faae9270fa310bbc40d
 f
 6src/main/java/CodingChallenges/MegaBytesConverter.java,5\1\513675d338de6c04a43c065333c76afd3b4787c1
 ^
@@ -37,3 +31,5 @@ c
 3src/main/java/CodingChallenges/EqualSumChecker.java,b\1\b17da6b5d2bc3ef3cba38cd4fe654e92b6e26402
 p
 @src/main/java/CodingChallenges/MinutesToYearsDaysCalculator.java,5\0\509e81de14b19186f537033217c6e715430f7365
+N
+src/test/java/SwitchTests.java,d\9\d998466599474c65e7ad5e217ce7aff68a3c5433

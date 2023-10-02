@@ -14,6 +14,10 @@ public class LoggerUtil {
     public static void logInfo(String message) {
         logger.info(String.format(message));
     }
+    public static void logInfo(List<Integer> value) {
+        logger.info(String.format(value.toString()));
+    }
+
 
     public static void logInfo(boolean value) {
         logger.info(value);
