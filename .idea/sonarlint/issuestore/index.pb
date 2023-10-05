@@ -33,3 +33,11 @@ e
 5src/main/java/CodingChallenges/TeenNumberChecker.java,6\4\6428b746b62b7fe20c8b58ba099d877cb75ca3c8
 N
 src/test/java/SwitchTests.java,d\9\d998466599474c65e7ad5e217ce7aff68a3c5433
+Y
+)src/main/java/CourseMaterial/ForLoop.java,c\7\c7b2a00e8363ce0215b2839ee2c5a052119ad741
+c
+3src/main/java/CourseMaterial/MethodOverloading.java,8\9\89bb93fcbbe82d2d148b0faae9270fa310bbc40d
+e
+5src/main/java/CodingChallenges/ForLoopChallenges.java,0\a\0ae77a6f1584a5c06154a255f80a7a1d2937e308
+S
+#src/main/java/utils/LoggerUtil.java,1\a\1a4c1bd44dff94325f6eb8852c974901b35d0887
