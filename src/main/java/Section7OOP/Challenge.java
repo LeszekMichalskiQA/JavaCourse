@@ -19,5 +19,10 @@ public class Challenge {
 
         Account gosiaAccount = new Account("Gosia", "gosi@email.com", "1244");
         System.out.println("AccountNo: " + gosiaAccount.getAccountNumber() + "; name " + gosiaAccount.getCustomerName());
+
+        Customer customer = new Customer("Time", 1000, "tim@email.com");
+        System.out.println(customer.getName());
+        System.out.println(customer.getCreditLimit());
+        System.out.println(customer.getEmail());
     }
 }
